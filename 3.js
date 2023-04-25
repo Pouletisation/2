@@ -663,7 +663,7 @@ var __extends = this && this.__extends || function() {
                 var f = c.totalTimeElapsed / 90 << 0,
                     g = .01 * c.totalDistance << 0,
                     h = {
-                        calculatedScore: 1500 + c.nCoins * c.valueCoins + g + f << 0,
+                        calculatedScore: 3500 + c.nCoins * c.valueCoins + g + f << 0,
                         nCoins: c.nCoins << 0,
                         nMalus: c.nMalus << 0,
                         time: f,
