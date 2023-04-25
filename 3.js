@@ -661,7 +661,7 @@ var __extends = this && this.__extends || function() {
                 var e = c;
                 c.isGameOver = !0;
                 var f = c.totalTimeElapsed / 90 << 0,
-                    g = .01 * c.totalDistance << 0,
+                    g = .02 * c.totalDistance << 0,
                     h = {
                         calculatedScore: 3500 + c.nCoins * c.valueCoins + g + f << 0,
                         nCoins: c.nCoins << 0,
@@ -756,7 +756,7 @@ var __extends = this && this.__extends || function() {
     WingsV4GameplayRoadTrip = function(a) {
         function b(b) {
             var c = a.call(this, b, {
-                valueCoins: 10,
+                valueCoins: 30,
                 isZoomEnabled: !0,
                 timeToAdd: .06,
                 gravity: .2,
@@ -832,7 +832,7 @@ var __extends = this && this.__extends || function() {
     WingsV4GameplayTinyWings = function(a) {
         function b(b) {
             var c = a.call(this, b, {
-                valueCoins: 100,
+                valueCoins: 200,
                 isZoomEnabled: !0,
                 timeToAdd: .1,
                 gravity: .4,
